@@ -1,0 +1,66 @@
+.grear {
+
+    &__wrrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        padding: 113px 60px;
+    }
+
+    &__label {
+        margin-bottom: 6px;
+
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--color-text);
+    }
+
+    &__title {
+        margin-bottom: 14px;
+
+        font-size: 28px;
+        line-height: 1.14;
+        color: currentColor;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+        
+        font-size: 14px;
+        line-height: 1.43;
+        color: currentColor;
+    }
+
+    &__next--content {
+        background-color: var(--secondary-color);
+
+        background-position: center;
+        background-size: cover;
+
+        background-image: 
+            image-set(
+                url("../../images/the-gear-cage/page-1_@2x.webp") 2x,
+                url("../../images/the-gear-cage/page-1_@1x.webp") 1x,
+                url("../../images/the-gear-cage/page-1_@2x.jpg") 2x,
+                url("../../images/the-gear-cage/page-1_@1x.jpg") 1x
+            );
+    }
+
+    &__list {
+        display: flex;
+        justify-content: end;
+        gap: 16px;
+
+        padding: 484px 40px 40px 400px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+    }
+}

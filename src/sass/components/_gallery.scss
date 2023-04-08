@@ -1,0 +1,63 @@
+.gallery {
+
+    &__content {
+        padding: 120px 120px 100px 120px;
+    }
+
+    &__title {
+        margin-bottom: 15px;
+
+        font-size: 40px;
+        line-height: 1.05;
+
+        text-align: center;
+    
+        color: currentColor;
+    }
+
+    &__text {
+        margin-bottom: 42px;
+
+        text-align: center;
+        
+        font-size: 23px;
+        line-height: 1.30;
+        color: var(--color-text);
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    &__item {
+        position: relative;
+        flex-basis: calc((100% - 16px * 1) / 2);
+    }
+
+    &__content--image {
+        position: absolute;
+        bottom: 70px;
+        left: 30px;
+
+        max-width: 500px;
+    }
+
+    &__label {
+        margin-bottom: 10px;
+        
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: currentColor;
+    }
+
+    &__image--text {
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 1.43;
+        color: var(--color-text);
+    }
+}

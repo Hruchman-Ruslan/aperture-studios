@@ -1,0 +1,29 @@
+.footer-business {
+    display: inline-block;
+
+    width: 220px;
+    
+    margin-right: 16px;
+
+    &__title {
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--color-text);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 1.43;
+        color: currentColor;
+    }
+}

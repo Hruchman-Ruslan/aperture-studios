@@ -1,0 +1,26 @@
+.footer-socials {
+    display: flex;
+
+    &__text {
+        font-size: 14px;
+        line-height: 1.43;
+        color: var(--color-text);
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__link {
+        color:  var(--color-text);
+    }
+
+    &__icon {
+        fill: currentColor;
+    }
+}
+
+.socials--text__wrrap {
+    margin-right: auto;
+}

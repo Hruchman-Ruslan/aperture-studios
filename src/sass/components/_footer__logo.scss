@@ -1,0 +1,28 @@
+.footer {
+
+    &__logo--wrrap {
+        display: inline-block;
+
+        max-width: 458px;
+
+        margin-right: auto;
+    }
+
+    &__logo {
+        display: block;
+
+        margin-bottom: 20px;
+        
+        color: currentColor;
+
+        &--icon {
+            fill: currentColor;
+        }
+    }
+
+    &__text {
+        font-size: 13px;
+        line-height: 1.54;
+        color: var(--color-text);
+    }
+}

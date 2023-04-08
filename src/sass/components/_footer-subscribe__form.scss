@@ -1,0 +1,33 @@
+.footer-subscribe__form {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-subscribe__input {
+    display: inline-block;
+    width: 458px;
+    height: 52px;
+
+    padding: 11px 0px 11px 6px;
+
+    background: var(--background-form);
+    border: var(--border-form);
+    border-radius: 12px;
+}
+
+.btn__form {
+    position: absolute;
+    top: 11px;
+    right: 6px;
+
+    padding: 0;
+
+    border-radius: 11px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.form__icon {
+    fill: currentColor;
+}

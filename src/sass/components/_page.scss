@@ -1,0 +1,27 @@
+.footer-page {
+    display: inline-block;
+
+    width: 220px;
+
+    margin-bottom: 36px;
+    
+    &__title {
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--color-text);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__link {
+        font-size: 13px;
+        line-height: 1.54;
+        color: currentColor;
+    }
+}

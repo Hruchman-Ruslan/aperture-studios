@@ -1,0 +1,36 @@
+.clients {
+    padding-top: 120px;
+    padding-bottom: 169px;
+    
+    text-align: center;
+
+    &__title {
+        margin-bottom: 15px;
+
+        font-size: 40px;
+        line-height: 1.05;
+        color: currentColor;
+    }
+
+    &__text {
+        margin-bottom: 109px;
+        font-size: 24px;
+        line-height: 1.25;
+        color: var(--color-text);
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 109px;
+    }
+
+    &__item {
+        flex-basis: calc((100 - 109 * 4) / 5);
+    }
+
+    &__icon {
+        fill: currentColor;
+    }
+}

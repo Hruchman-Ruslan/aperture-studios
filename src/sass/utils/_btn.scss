@@ -1,0 +1,23 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    min-width: 143px;
+    min-height: 42px;
+
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    color: var(--secondary-color);
+
+    cursor: pointer;
+    background: var(--primary-color);
+    border-radius: 14px;
+    border: none;
+}
+
+.circle {
+    stroke: currentColor;
+}

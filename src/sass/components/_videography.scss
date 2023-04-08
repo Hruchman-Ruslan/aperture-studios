@@ -1,0 +1,24 @@
+.videography {
+    padding-top: 113px;
+    padding-bottom: 108px;
+
+    text-align: center;
+
+    &__title {
+        max-width: 571px;
+        margin: auto;
+        margin-bottom: 15px;
+
+        font-size: 40px;
+        line-height: 1.05;
+        color: currentColor;
+    }
+
+    &__text {
+        margin-bottom: 12px;
+
+        font-size: 24px;
+        line-height: 1.25;
+        color: var(--color-text);
+    }
+}

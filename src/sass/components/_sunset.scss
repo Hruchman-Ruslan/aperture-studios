@@ -1,0 +1,50 @@
+.sunset {
+    padding: 40px;
+
+    background-color: var(--background-color);
+
+    background-position: center;
+    background-size: cover;
+
+    background-image: 
+        image-set(
+            url("../images/sunset/sunset-1_@2x.webp") 2x,
+            url("../images/sunset/sunset-1_@1x.webp") 1x,
+            url("../images/sunset/sunset-1_@2x.jpg") 2x,
+            url("../images/sunset/sunset-1_@1x.jpg") 1x
+        );
+
+        &__content {
+            padding-top: 205px;
+            padding-left: 1020px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 1.43;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: currentColor;
+        }
+
+        &__text {
+            max-width: 300px;
+            
+            margin-bottom: 205px;
+
+            font-size: 14px;
+            line-height: 1.43;
+            color: var(--color-text);
+        }
+
+        &__list {
+            display: flex;
+            justify-content: end;
+            gap: 16px;
+        }
+
+        &__item {
+            display: flex;
+            align-items: flex-start;
+        }
+}
