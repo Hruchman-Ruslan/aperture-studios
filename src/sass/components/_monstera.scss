@@ -1,48 +1,48 @@
 .monstera {
-    padding: 40px;
+  padding: 40px;
 
-    background-position: center;
-    background-size: cover;
+  // background-position: center;
+  // background-size: cover;
 
-    background-image: 
-        image-set(
-            url("../../images/monstera-leafs/monstera-1_@2x.webp") 2x,
-            url("../../images/monstera-leafs/monstera-1_@1x.webp") 1x,
-            url("../../images/monstera-leafs/monstera-1_@2x.jpg") 2x,
-            url("../../images/monstera-leafs/monstera-1_@2x.jpg") 1x
-        );
+  // background-image:
+  //     image-set(
+  //         url("../../images/monstera-leafs/monstera-1_@2x.webp") 2x,
+  //         url("../../images/monstera-leafs/monstera-1_@1x.webp") 1x,
+  //         url("../../images/monstera-leafs/monstera-1_@2x.jpg") 2x,
+  //         url("../../images/monstera-leafs/monstera-1_@2x.jpg") 1x
+  //     );
 
-    &__content {
-        padding-top: 205px;
-        padding-left: 1020px;
-    }
+  &__content {
+    padding-top: 205px;
+    padding-left: 1020px;
+  }
 
-    &__title {
-        font-size: 14px;
-        line-height: 1.43;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: currentColor;
-    }
+  &__title {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: currentColor;
+  }
 
-    &__text {
-        max-width: 273px;
+  &__text {
+    max-width: 273px;
 
-        margin-bottom: 204px;
+    margin-bottom: 204px;
 
-        font-size: 14px;
-        line-height: 1.43;
-        color: var(--color-text);
-    }
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--color-text);
+  }
 
-    &__list {
-        display: flex;
-        justify-content: end;
-        gap: 16px;
-    }
+  &__list {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+  }
 
-    &__item {
-        display: flex;
-        align-items: flex-start;
-    }
+  &__item {
+    display: flex;
+    align-items: flex-start;
+  }
 }
